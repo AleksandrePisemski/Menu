@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../global/global.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>MENU</title>
+</head>
+
+<body>
+    <main >
+        
+        <nav>
+            <div id = navigation>
+            <a href="../home/home.html">Home</a>
+            <a href="./menu.html">Catalog</a>
+            <a href="">Pofile</a>
+            </div>
+        </nav>
+
+        <div class="page">
+
+        <div id="all">
+
+            <section id="filters">
+
+                <div class="filter modelFilter">
+
+                    <h3 class="filterLable">Model</h3>
+
+                    <select name="" id="models" >
+                        <option value="all">All</option>
+                    </select>
+                </div>
+
+                <div class="filter brandFilter">
+                    <h3>Brand</h3>
+                    <select name="" id="brands">
+                        <option value="all">All</option>
+                    </select>
+                </div>
+
+
+
+
+                <div class="filter yearFilter">
+                    <h3>Year</h3>
+                    <select name="" id="years">
+                        <option value="all">All</option>
+                    </select>
+                </div>
+
+
+
+                <div id="sorts">
+                    <div id="low_high" class="prices">
+                        <input id="low-high" type="radio" value="low-high" name="sort">
+                        <label for="low-high">Price (low - high)</label>
+                    </div>
+                    <div id = "high_low" class = "prices">
+                        <input id="high-low" type="radio" value="high-low" name="sort">
+                        <label for="high-low">Price (high - low)</label>
+                    </div>
+                </div>
+
+
+
+
+            </section>
+
+            <div id="car-list">
+
+            </div>
+
+
+        </div>
+
+
+</div>
+    </main>
+    <script src="menu.js"></script>
+</body>
+
+</html>

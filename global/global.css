@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Anybody", sans-serif;
+    font-weight: normal;
+}
+
+
+#navigation {
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+    
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+     width: 100%;
+    background-color: rgba(179, 179, 179, 0.664);
+}
+
+#navigation>a {
+    font-family: "Anybody", sans-serif;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+
+.page {
+    padding: 50px;
+}

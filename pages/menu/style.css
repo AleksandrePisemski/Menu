@@ -1,0 +1,131 @@
+
+#all {
+    display: flex;
+    min-height: 100vh;
+    gap: 100px;
+    padding: 50px 10px;
+}
+
+
+
+
+#car-list {
+    display: flex;
+    gap: 40px 10px;
+    height: fit-content;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+
+#displayCar {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 25%;
+    min-width: 250px;
+    aspect-ratio: 1/1.2;
+    /* height: 300px; */
+    /* border-radius: 17px;  */
+    background-color: white;
+    /* box-shadow: inset -3px -3px 1px black; */
+    gap: 20px;
+}
+
+#displayCar:hover {
+    outline: solid 1px black;
+
+}
+
+#carInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 5px;
+}
+
+#carInfo>* {
+    font-size: 15px;
+}
+
+#brand {
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+#year {
+    font-weight: normal;
+}
+
+#price {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+#filters {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 500px;
+    border: solid 2px black;
+    width: 300px;
+    align-items: center;
+}
+
+#images {}
+
+.image {
+    width: 100%;
+}
+
+
+select,
+input {
+    width: 50px;
+}
+
+.filter {
+    width: 180px;
+    display: flex;
+    gap: 5px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+
+
+
+select {
+    width: fit-content;
+    text-align: center;
+    border: solid 1px black;
+    padding: 2px;
+    margin: 3px;
+
+}
+
+
+
+#sorts {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+
+.prices {
+    display: flex;
+}
+
